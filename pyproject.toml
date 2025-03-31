@@ -1,0 +1,39 @@
+[project]
+name = "finage_mcp"
+version = "0.0.1"
+description = "Finage MCP Server"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "datetime>=5.5",
+    "httpx>=0.28.1",
+    "mcp>=1.6.0",
+    "pyyaml>=6.0.2",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[[project.authors]]
+name = "Artemij Lehmann"
+email = "artemij.cadov@gmail.com"
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "python-dotenv>=1.1.0",
+]
+
+[tool.uv]
+package = true
