@@ -2,6 +2,9 @@
 
 A MCP server for the stock market data API, Finage API.
 
+### Warning
+The package is under development and only supports two endpoint as of v0.0.1. Be cautious.
+
 ## Configuration
 
 ### Getting an API Key
