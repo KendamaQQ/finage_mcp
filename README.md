@@ -27,7 +27,7 @@ Add this to your `claude_desktop_config.json`:
 ```
 {
   "mcpServers": {
-    "alphavantage": {
+    "finage_mcp": {
       "command": "uv",
       "args": [
         "--directory",
