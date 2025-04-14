@@ -1,6 +1,7 @@
 # Finage MCP Server
 
 A MCP server for the stock market data API, Finage API.
+Only small subset of endpoints is implemented.
 
 ## Configuration
 
@@ -13,7 +14,7 @@ A MCP server for the stock market data API, Finage API.
 ## Clone the project
 
 ```bash
-git clone https://github.com/calvernaz/alphavantage.git
+git clone https://github.com/KendamaQQ/finage_mcp.git
 ```
 
 ### Usage with Claude Desktop
@@ -28,9 +29,9 @@ Add this to your `claude_desktop_config.json`:
       "command": "uv",
       "args": [
         "--directory",
-        "<DIRECTORY-OF-CLONED-PROJECT>/finage",
+        "<DIRECTORY-OF-CLONED-PROJECT>/finage_mcp",
         "run",
-        "finage"
+        "finage_mcp"
       ],
       "env": {
         "FINAGE_API_KEY": "YOUR_API_KEY_HERE"
